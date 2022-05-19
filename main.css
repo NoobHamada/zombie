@@ -81,7 +81,7 @@ body {
     top: 120px;
     left: 25px;
     z-index: 1;
-    box-shadow: 0 5px 2px #222;
+    box-shadow: 0 7px 0px #222;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -97,7 +97,7 @@ body {
     position: absolute;
     top: 120px;
     right: 25px;
-    box-shadow: 0 5px 2px #222;
+    box-shadow: 0 7px 0px #222;
     z-index: 1;
     border-radius: 50%;
     -webkit-border-radius: 50%;
