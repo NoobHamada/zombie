@@ -8,6 +8,11 @@ body {
     background-color: #333;
 }
 
+::selection {
+    background-color: #500;
+}
+
+
 /* End Global Values */
 
 .fore-head {
@@ -26,8 +31,8 @@ body {
 
 .fore-head:before {
     content: "";
-    width: 50px;
-    height: 100px;
+    width: 40px;
+    height: 90px;
     background: linear-gradient(to bottom, #fcc, #fdd);
     position: absolute;
     top: 120px;
@@ -48,8 +53,8 @@ body {
 
 .fore-head:after {
     content: "";
-    width: 50px;
-    height: 100px;
+    width: 40px;
+    height: 90px;
     background: linear-gradient(to bottom, #fcc, #fdd);
     position: absolute;
     top: 120px;
@@ -115,7 +120,7 @@ body {
     position: relative;
     top: 125px;
     margin: 0 auto;
-    box-shadow: 0 70px 20px #222;
+    box-shadow: 0 80px 15px #222;
     border-radius: 0 0 100% 100%;
     -webkit-border-radius: 0 0 100% 100%;
     -moz-border-radius: 0 0 100% 100%;
